@@ -8,7 +8,7 @@ var userAge = prompt('please enter your age!');
 var rating = prompt('from 1 to 10 how much would you rate my website?')
 if (rating <=10){
 for(i=0; i<rating; i++){
-  document.write( + i + '<img src= "https://www.crownconnect.com/assets/ThankYou.jpg"/> <br>');
+   document.write('<img src="https://www.crownconnect.com/assets/ThankYou.jpg" width="200px"/>');
 }
 }
 else (alert('please enter a valid value'));
@@ -28,7 +28,7 @@ function totalExpensis(f, w, e, h){
 
 let  total1 = Number(f) + Number(w) + Number(e) + Number(h) ;
 
- document.write('your total monthly expensis are: ' + total1 + '<br>' )
+ document.write('<br>your total monthly expensis are: ' + total1 + '<br>' )
 
 }
 totalExpensis(f, w ,e, h);
